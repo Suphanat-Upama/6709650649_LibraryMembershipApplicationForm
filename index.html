@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="th">
+    <link rel="Icon" href="resources/pic Icon/Icon forms.png" type="image/png">
+    <link rel="stylesheet" href="mystyle.css">
+
+    <title>ฟอร์มสมัครสมาชิกห้องสมุด</title>
+
+
+</head>
+
+<body>
+
+    <main>
+
+
+        <section class="content">
+            <h2><p>แบบฟอร์มสมัครสมาชิกห้องสมุด</p></h2><br>
+        </section>
+
+        
+        <section class="form-section">
+
+            <form action="/submitpage.html" target="_blank" method="post">
+
+            <label for="name">ชื่อ-สกุล (ไม่ใส่คำนำหน้า):</label><br>
+            <input type="text" id="name" name="name" placeholder="กรอกชื่อและนามสกุลของคุณ"><br><br>
+            <!-- เพศชาย -->
+            <label for="sex">เพศ:</label><br>
+            <input type="radio" id="Male" name="sex" value="ชาย / Male">
+            <label for="Male">ชาย / Male</label><br>
+            <!-- เพศหญิง -->
+            <input type="radio" id="Female" name="sex" value="หญิง / Female">
+            <label for="Female">หญิง / Female</label><br>
+            <!-- อื่นๆ -->
+            <input type="radio" id="other" name="sex" value="อื่นๆ / Other">
+            <label for="other">อื่นๆ / Other</label><br>
+            <br>
+
+            <label for="Student id">รหัสนักศึกษา:</label><br>
+            <input type="text" id="student id" name="student id" placeholder="กรอกรหัสนักศึกษาของคุณ"><br><br>
+
+            <label for="faculty">คณะที่ศึกษา:</label><br>
+            <input type="text" id="faculty" name="faculty" placeholder="กรอกคณะของคุณ"><br><br>
+
+            <label for="phone">เบอร์โทรศัพท์:</label><br>
+            <input type="text" id="phone" name="phone" placeholder="กรอกเบอร์โทรศัพท์ของคุณ"><br><br>
+
+            <label for="email">อีเมล:</label><br>
+            <input type="email" id="email" name="email" placeholder="กรอกอีเมลของคุณ"><br><br>
+
+            <label for="age">วัน/เดือน/ปี เกิด:</label><br>
+            <!-- ช่องกรอกวัน (1-31) -->
+            <label for="day">วัน:</label>
+            <input type="number" id="day" name="day" min="1" max="31" placeholder="Day" required>
+            
+            <!-- ช่องกรอกเดือน (1-12) -->
+            <label for="month">เดือน:</label>
+            <input type="number" id="month" name="month" min="1" max="12" placeholder="Month" required>
+            
+            <!-- ช่องกรอกปี -->
+            <label for="year">ปี(ค.ศ.):</label>
+            <input type="number" id="year" name="year" min="1900" max="2100" placeholder="Year" required><br><br>
+            
+            <label for="type of book">ประเภทของหนังสือที่สนใจ:</label><br>
+            <input type="text" id="type of book" name="type of book" placeholder="กรอกประเภทของหนังสือ"><br><br>
+            <label for="news">ความต้องการรับข่าวสารข้อมูลของห้องสมุดทางอีเมลหรือไม่:</label><br>
+            <input type="checkbox" id="news" value="ใช่ / Yes">
+            <label for="news">ใช่ / Yes</label><br>
+            <input type="checkbox" id="news" value="ไม่ / No">
+            <label for="news">ไม่ / No</label><br>
+            <br>
+
+            <center><button type="submit">สมัครสมาชิก</button></center>
+            
+            </form>
+
+        </section>
+
+
+    </main>
+
+    <footer>
+
+
+
+
+
+
+    </footer>
+
+
+
+
+</body>
+
+
+
+
+
+</html>
