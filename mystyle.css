@@ -14,7 +14,7 @@ header {
 body {
     font-size: 16px;
     font-family: "Noto Sans Thai", sans-serif;
-    background-color: #1A374D;
+    background: linear-gradient(to right, #1A374D, #305979); /* พื้นหลังสีไล่ระดับ */
     display: grid;
     
 }
